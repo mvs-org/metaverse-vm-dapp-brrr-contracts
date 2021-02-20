@@ -1,0 +1,28 @@
+{
+  "name": "metaverse-vm-dapp-brrr-contracts",
+  "version": "0.0.1",
+  "description": "Example MST contract for the Metaverse VM",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "@truffle/hdwallet-provider": "^1.2.2"
+  },
+  "devDependencies": {
+    "truffle": "^5.1.67"
+  },
+  "scripts": {
+    "build": "truffle build",
+    "deploy": "truffle deploy --network metaversevm",
+    "test": "truffle test"
+  },
+  "keywords": [
+    "Metaverse",
+    "Token",
+    "Blockchain"
+  ],
+  "author": "viewfin",
+  "license": "MIT"
+}
